@@ -1,0 +1,28 @@
+name: AnarchiaKlany
+version: 1.0.0
+main: pl.anarchia.klany.AnarchiaKlany
+api-version: '1.21'
+softdepend: [AnarchiaScoreboard]
+description: Klany z tagami przy nicku (zielony swoj, czerwony obcy)
+commands:
+  klan:
+    description: System klanow
+    usage: /klan <zaloz <skrot> <nazwa> | usun | opusc | zapros <nick> | wyrzuc <nick> | dolacz>
+  usun:
+    description: Potwierdzenie usuniecia klanu (po /klan usun)
+    usage: /usun
+  opusc:
+    description: Opusc klan
+    usage: /opusc
+  zaloz:
+    description: Zaloz klan
+    usage: /zaloz <skrot> <nazwa>
+  zapros:
+    description: Zapros gracza do klanu
+    usage: /zapros <nick>
+  wyrzuc:
+    description: Wyrzuc gracza z klanu
+    usage: /wyrzuc <nick>
+  dolacz:
+    description: Przyjmij zaproszenie do klanu
+    usage: /dolacz
